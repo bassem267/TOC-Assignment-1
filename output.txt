@@ -1,0 +1,90 @@
+1 
+valid email
+invalid email
+invalid email
+X 
+2 
+valid phone number
+valid phone number
+valid phone number
+invalid phone number
+invalid phone number
+X 
+3 
+valid date
+invalid date
+invalid date
+X 
+4 
+valid IP address
+invalid IP address
+X 
+5 
+valid C++ variable name
+valid C++ variable name
+valid C++ variable name
+invalid C++ variable name
+invalid C++ variable name
+invalid C++ variable name
+X 
+6 
+invalid string, has 3 consecutive b's
+invalid string, has 3 consecutive b's
+valid string
+X 
+7 
+*aabb*
+number of matched substrings: 1
+matched substring: aa
+start index: 0, end index: 2
+number of matched substrings: 2
+matched substring: bb
+start index: 2, end index: 4
+X 
+*aabaaaaabaa*
+number of matched substrings: 1
+matched substring: aa
+start index: 0, end index: 2
+number of matched substrings: 2
+matched substring: aaaaa
+start index: 3, end index: 8
+number of matched substrings: 3
+matched substring: aa
+start index: 9, end index: 11
+X 
+X 
+8 
+*The cat is cute*
+number of matched words: 1
+matched word: The
+start index: 0, end index: 3
+number of matched words: 2
+matched word: cat
+start index: 4, end index: 7
+*an apple*
+No word matches
+X 
+9 
+*problem9file.txt*
+Number of URLs: 1
+URL: https://www.example.com/
+Line: 1
+start index: 36, end index: 60
+Number of URLs: 2
+URL: https://blog.example.com.
+Line: 2
+start index: 55, end index: 80
+Number of URLs: 3
+URL: https://twitter.com/example.
+Line: 3
+start index: 35, end index: 63
+Number of URLs: 4
+URL: https://www.example.com/example1/example2.
+Line: 4
+start index: 43, end index: 85
+X 
+10 
+valid mathematical expression
+invalid mathematical expression
+invalid mathematical expression
+X 
